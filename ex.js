@@ -34,3 +34,9 @@ function result(){
     alert("肥満（３）");
     }
     }
+ function imgchange1(){
+    document.getElementById('long').src = './body/mukimuki.png';
+}
+function imgchange2(){
+    document.getElementById('long').src = './body/garigari.png';
+}

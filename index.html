@@ -27,4 +27,54 @@
 <p>BMIを調べたら肥満度を診断しよう</p>
 <input type="button" value="診断" onclick="result();">
 
+<div class="mukimuki">
+<h1>ムキムキボディを目指そう！</h1>
+<div id="body">
+<input type="button" value="画像の変更"
+onclick="imgchange1();">
+<img src='./body/garigari.png'id="long" class="size" alt="Yase"></div>
+<input type="button" value="画像の修正"
+onclick="imgchange2();">
+</div>
+
+<div class="skil">
+<h1>おすすめの筋トレ</h1>
+<p>
+<img src="./fit/バンザイコシフリ.png" alt="画像" class="fit1">
+バンザイコシフリ
+</p>
+<p>
+<img src="./fit/リングアゲサゲ.png" alt="画像" class="fit1">
+リングアゲサゲ
+</p>
+<p>
+<img src="./fit/レッグレイズ.png" alt="画像" class="fit1">
+レッグレイズ
+</p>
+<p>
+<img src="./fit/ロシアンツイスト.png" alt="画像" class="fit1">
+ロシアンツイスト
+</p>
+</div>
+<!--パズル＆PC解説サイト「パズルネット」より-->
+<div class="roll">
+<script>
+
+function winOpen()
+{
+  var w=(screen.width-640)/2;
+  var h=(screen.height-480)/2;
+  
+  window.open("staffroll.html","sub","width=640,height=480,"+
+    "left="+w+",top="+h+",scrollbars=no,menubar=no,toolbar=no");
+}
+
+</script>
+
+<form>
+<input type="button" value="スタッフロール" onclick="winOpen()">
+</form>
+
+</div>
+
 </body>

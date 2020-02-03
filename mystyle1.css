@@ -28,7 +28,11 @@ body {margin:100px;}
      object-fit: cover;
      object-position: 10 0;
 	  }
-
-  
-
-	
+img.fit1{vertical-align:middle;}
+.mukimuki{  float: left;
+}
+.skil{  float: right;
+}
+img.size{width:200px; height:auto;}
+.mukimuki{margin:50px;}
+.roll{clear: both;}
